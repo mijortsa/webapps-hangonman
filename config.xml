@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://github.com/01org/webapps-hangonman" version="1.0" viewmodes="fullscreen">
+<!--widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://github.com/01org/webapps-hangonman" version="1.0" viewmodes="fullscreen">
     <icon src="icon_128.png"/>
     <content src="index.html"/>
 <name>hangonman</name>
 <tizen:application id="nrT4AQuzWO" required_version="1.0"/>
 <tizen:setting screen-orientation="landscape" contextmenu="enable"/>
+</widget-->
+
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        id          = "https://github.com/01org/webapps-hangonman"
+        version     = "git"
+        height      = "490"
+        width       = "820">
+ 
+  <name short="hangonman">
+    Hangonman
+  </name>
+
+  <description>
+    Hangonman
+    -------------
+    Webapps Games
+
+  </description>
+
+  <author href="http://google.com/">Google</author>
+
+  <icon src="icon_48.png"/>
+  <content src="index.html"/>
+
+  <license>
+    (c) 2010, Google
+  </license>
 </widget>
+
